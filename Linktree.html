@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 404 | WORK CARD</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+        body {
+            background-color: #0a0a12;
+            font-family: 'Share Tech Mono', monospace;
+            color: #00ff9d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .work-card {
+            width: 300px;
+            border: 2px solid #9400d3;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: #111122;
+            box-shadow: 0 0 15px #00bfff80;
+            position: relative;
+            overflow: hidden;
+        }
+
+
+
+        .header {
+            text-align: center;
+            border-bottom: 1px dashed #00ff9d;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #00bfff;
+            text-shadow: 0 0 5px #00bfff;
+        }
+
+        .header h2 {
+            margin: 5px 0 0;
+            font-size: 14px;
+            color: #9400d3;
+        }
+
+        .employee-info {
+            margin-bottom: 20px;
+        }
+
+        .info-row {
+            display: flex;
+            margin-bottom: 8px;
+        }
+
+        .label {
+            width: 100px;
+            color: #00bfff;
+        }
+
+        .value {
+            flex-grow: 1;
+        }
+
+        .qr-code {
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        .qr-code img {
+            width: 120px;
+            height: 120px;
+            border: 1px solid #00ff9d;
+            padding: 5px;
+            background: white;
+        }
+
+        .footer {
+            font-size: 10px;
+            text-align: center;
+            color: #9400d3;
+            border-top: 1px dashed #00ff9d;
+            padding-top: 10px;
+        }
+
+        .glitch {
+            animation: glitch-effect 2s infinite linear;
+        }
+
+
+
+        .role-tag {
+            display: inline-block;
+            padding: 3px 8px;
+            background-color: #9400d320;
+            border: 1px solid #9400d3;
+            border-radius: 3px;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+
+        .clearance {
+            color: #ff3131;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="work-card">
+        <div class="header">
+            <h1 class="glitch">PROJECT 404</h1>
+            <h2>RabbitHole</h2>
+        </div>
+
+        <div class="employee-info">
+            <div class="info-row">
+                <div class="label">AGENT ID:</div>
+                <div class="value">HOLE-<span id="agent-id">████</span></div>
+            </div>
+
+            <div class="info-row">
+                <div class="label">NAME:</div>
+                <div class="value"><span id="employee-name">[REDACTED]</span></div>
+            </div>
+
+
+
+            <div class="info-row">
+                <div class="label">SINCE:</div>
+                <div class="value">06 2025</div>
+            </div>
+
+            <div class="info-row">
+                <div class="label">Linktree:</div>
+            </div>
+        </div>
+
+        <div class="qr-code">
+            <!-- Replace with actual QR code image -->
+            <img src="Pr0jct404_RabbitHole.png" alt="Access QR Code">
+        </div>
+
+        <div class="footer">
+            <div>THIS CARD PROPERTY OF PROJECT 404</div>
+            <div>UNAUTHORIZED USE PUNISHABLE BY DATA ERASURE</div>
+        </div>
+    </div>
+
+
+</body>
+</html>
